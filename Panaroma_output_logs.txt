@@ -1,0 +1,124 @@
+Auto-detecting image files...
+
+ Found mov3 (indoor office)
+ Found mov2b (outdoor location)
+
+PROCESSING: mov2b Panorama
+Frames: [7 9 11 13 15 17 19 21 23 25 27]
+
+STEP 1: Loading images for the process
+  [ 1/11] Frame  7 loaded from: mov2b_images/mov2b_7.jpg
+  [ 2/11] Frame  9 loaded from: mov2b_images/mov2b_9.jpg
+  [ 3/11] Frame 11 loaded from: mov2b_images/mov2b_11.jpg
+  [ 4/11] Frame 13 loaded from: mov2b_images/mov2b_13.jpg
+  [ 5/11] Frame 15 loaded from: mov2b_images/mov2b_15.jpg
+  [ 6/11] Frame 17 loaded from: mov2b_images/mov2b_17.jpg
+  [ 7/11] Frame 19 loaded from: mov2b_images/mov2b_19.jpg
+  [ 8/11] Frame 21 loaded from: mov2b_images/mov2b_21.jpg
+  [ 9/11] Frame 23 loaded from: mov2b_images/mov2b_23.jpg
+  [10/11] Frame 25 loaded from: mov2b_images/mov2b_25.jpg
+  [11/11] Frame 27 loaded from: mov2b_images/mov2b_27.jpg
+
+STEP 2: SURF feature detection...
+  Frame 1: 752 features
+  Frame 2: 759 features
+  Frame 3: 771 features
+  Frame 4: 733 features
+  Frame 5: 701 features
+  Frame 6: 663 features
+  Frame 7: 586 features
+  Frame 8: 546 features
+  Frame 9: 559 features
+  Frame 10: 561 features
+  Frame 11: 617 features
+
+STEP 3: Homography computation...
+  Pair 1-2: 495 matches, 491 inliers 
+  Pair 2-3: 500 matches, 498 inliers 
+  Pair 3-4: 451 matches, 444 inliers 
+  Pair 4-5: 424 matches, 419 inliers 
+  Pair 5-6: 408 matches, 402 inliers 
+  Pair 6-7: 380 matches, 377 inliers 
+  Pair 7-8: 358 matches, 353 inliers 
+  Pair 8-9: 382 matches, 379 inliers 
+  Pair 9-10: 242 matches, 240 inliers 
+  Pair 10-11: 253 matches, 250 inliers 
+
+STEP 4: Center image adjustment...
+  Center: 6 of 11
+  Size: 1476 × 664
+
+STEP 5: Warping and blending
+  Image 1/11... ✓
+  Image 2/11... ✓
+  Image 3/11... ✓
+  Image 4/11... ✓
+  Image 5/11... ✓
+  Image 6/11... ✓
+  Image 7/11... ✓
+  Image 8/11... ✓
+  Image 9/11... ✓
+  Image 10/11... ✓
+  Image 11/11... ✓
+
+STEP 6: Crop borders
+  Final: 1475 × 663
+
+ SAVED: panorama_mov2b_.jpg (1475 × 663)
+PROCESSING: mov3 Panorama
+Frames: [1 3 5 7 9 11 13 15 17]
+
+STEP 1: Loading images for the process
+  [ 1/ 9] Frame  1 loaded from: mov3/mov3_1.jpg
+  [ 2/ 9] Frame  3 loaded from: mov3/mov3_3.jpg
+  [ 3/ 9] Frame  5 loaded from: mov3/mov3_5.jpg
+  [ 4/ 9] Frame  7 loaded from: mov3/mov3_7.jpg
+  [ 5/ 9] Frame  9 loaded from: mov3/mov3_9.jpg
+  [ 6/ 9] Frame 11 loaded from: mov3/mov3_11.jpg
+  [ 7/ 9] Frame 13 loaded from: mov3/mov3_13.jpg
+  [ 8/ 9] Frame 15 loaded from: mov3/mov3_15.jpg
+  [ 9/ 9] Frame 17 loaded from: mov3/mov3_17.jpg
+
+STEP 2: SURF feature detection...
+  Frame 1: 281 features
+  Frame 2: 309 features
+  Frame 3: 345 features
+  Frame 4: 348 features
+  Frame 5: 361 features
+  Frame 6: 344 features
+  Frame 7: 260 features
+  Frame 8: 211 features
+  Frame 9: 239 features
+
+STEP 3: Homography computation...
+  Pair 1-2: 133 matches, 130 inliers 
+  Pair 2-3: 151 matches, 145 inliers 
+  Pair 3-4: 135 matches, 131 inliers 
+  Pair 4-5: 169 matches, 160 inliers 
+  Pair 5-6: 152 matches, 148 inliers 
+  Pair 6-7: 123 matches, 118 inliers 
+  Pair 7-8: 103 matches, 101 inliers 
+  Pair 8-9: 107 matches, 97 inliers 
+
+STEP 4: Center image adjustment...
+  Center: 4 of 9
+  Size: 4476 × 1882
+
+STEP 5: Warping and blending
+  Image 1/9... ✓
+  Image 2/9... ✓
+  Image 3/9... ✓
+  Image 4/9... ✓
+  Image 5/9... ✓
+  Image 6/9... ✓
+  Image 7/9... ✓
+  Image 8/9... ✓
+  Image 9/9... ✓
+
+STEP 6: Crop borders
+  Final: 4475 × 1881
+
+ SAVED: panorama_mov3_.jpg (4475 × 1881)
+
+
+ PANORAMA STITCHING IS COMPLETE
